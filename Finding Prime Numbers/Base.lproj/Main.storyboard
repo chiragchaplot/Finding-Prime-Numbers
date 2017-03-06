@@ -64,6 +64,9 @@
                                     <constraint firstAttribute="height" constant="30" id="Q4m-W1-nMX"/>
                                 </constraints>
                                 <state key="normal" title="Is It Prime?"/>
+                                <connections>
+                                    <action selector="isItPrime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0A-Yx-zpC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILq-1K-JmL">
                                 <rect key="frame" x="279" y="256" width="42" height="21"/>
@@ -93,6 +96,10 @@
                             <constraint firstItem="g83-P3-1QI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vgr-81-2hD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numTextField" destination="w6N-lj-mS2" id="hac-2W-KTD"/>
+                        <outlet property="resultLabel" destination="ILq-1K-JmL" id="6c3-7i-ycf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
